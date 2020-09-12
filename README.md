@@ -1,2 +1,2 @@
-# comp1511_tutorials_20t3
-Tutorial code
+# Hello world!
+Code from the COMP1511 W13B tutorial.
