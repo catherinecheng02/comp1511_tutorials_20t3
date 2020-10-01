@@ -1,6 +1,6 @@
 // Q5 : Write a C program range.c which reads integers n and m and
 // then prints the integers n..m, one per line.
-// By T13B, September 2020
+// By W13B, September 2020
 
 #include <stdio.h>
 
@@ -18,6 +18,7 @@ int main(void) {
         start++;
     }
 
+    // Ways to decrement a counter
     // start--;
     // start = start - 1;
     // start -= 1;

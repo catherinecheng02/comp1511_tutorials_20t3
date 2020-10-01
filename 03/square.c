@@ -1,8 +1,11 @@
+// Print a n by n square of *
+// By W13B, September 2020
+
 #include <stdio.h>
 
 int main(void) {
     int number;
-    // int row;
+    int row;
     int column;
 
     // Obtain input
