@@ -1,0 +1,30 @@
+// Add up user input, until CTRL-D is pressed
+// Tutorial Wednesday 13B, October 2020
+
+#include <stdio.h>
+
+int main(void) {
+    // Calling a function with no parameters(void)
+    // say_hello();
+    
+    int cumulative_total = 0;
+    int current_num;
+    
+    printf("Enter numbers: ");
+    
+    while (scanf("%d", &current_num) == 1) {
+        cumulative_total += current_num;
+    }
+
+    // Longer way to increment.
+    //cumulative_total = cumulative_total + current_num;
+    
+    printf("Cumulative total: %d\n", cumulative_total);
+    
+    return 0;
+}
+
+//void say_hello(void) {
+//    printf("Hey there\n");
+//    return;
+//}
